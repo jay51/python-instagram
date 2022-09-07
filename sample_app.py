@@ -3,6 +3,12 @@ import beaker.middleware
 from bottle import route, redirect, post, run, request, hook
 from instagram import client, subscriptions
 
+bottle.debug(False)
+bottle.debug(False)
+bottle.debug(False)
+bottle.debug(False)
+bottle.debug(False)
+bottle.debug(False)
 bottle.debug(True)
 
 session_opts = {
